@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid{
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  gap: 3rem;
+  text-align: center;
+  align-items: center;
+  padding: 5rem;
+  margin: 30px;
+  background-color: greenyellow;
+  border: solid wheat;
+  transition: 0.3s ease-in;
+  box-shadow: 0 0 40px black;
+}
+body{
+  background-color:azure;
+  display: grid;
+  align-items: center;
+}
+.bg{
+  background-color: rgb(3, 85, 3);
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 30px;
+  border:solid greenyellow;
+  transition: 0.3s ease-in;
+  box-shadow: 0 0 40px black;
+}
+.text-black{
+  height: 50px;
+  width: 500px;
+  text-align : center;
+  margin: 0 1rem 1rem;
+  border: solid rgb(7, 61, 7);
+  border-radius: 50px 50px 1em  ;
+}
+.search {
+  color:rgb(40, 204, 49);
+  border: solid rgb(7, 61, 7);
+  border-radius:1em  ;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  }
+  .search:hover{
+    box-shadow: 0 0 40px white;
+  }
+  .location{
+    background-color: rgb(7, 61, 7);
+    color: rgb(223, 213, 213);
+    padding: 1rem;
+    text-align: center;
+  }
+  img{
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: solid 0.5em;
+    min-width: 200px;
+  }
+  img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 40px black;
+  }
+  span{
+    color:red;
+    margin: 5px 10px;
+    font-size: 22px;
+  }
+  ul{
+    margin:5px;
+    text-align: center;
+  }
+   h3{
+    font-size: 20px;
+   }
+   .lii{
+    font-size: 22px;
+   }
+   h2{
+    font-size: 40px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 40px black;
+   }
+   .morty{
+    min-width: 240px;
+    max-height: 100px;
+    border: none;
+    border-radius: 0.5px;
+   }
+   .morty__div{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    transition: 0;
+    box-shadow: 0 0 0px;
+  }
+  
+   
