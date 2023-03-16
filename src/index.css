@@ -19,6 +19,8 @@
   border: solid wheat;
   transition: 0.3s ease-in;
   box-shadow: 0 0 40px black;
+  grid-template-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 body{
   background-color:azure;
